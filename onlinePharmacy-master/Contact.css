@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #000;
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(41, 152, 255, 0.6), rgba(86, 67, 250, 0.6)), url(img/advice.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.contact__container {
+    padding: 100px 0;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+    color: #fff;
+}
+
+.header__text h1 {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.header__text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+fieldset {
+    border-color: #2998ff;
+    border-radius: 5px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+legend {
+    font-size: 30px;
+    padding: 0 10px;
+    color: #5543fa;
+}
+
+input {
+    width: 60%;
+    border-color: #2998ff;
+    border-radius: 25px;
+    height: 30px;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+input:focus {
+    outline: none;
+}
+.button{
+    border: solid #2998ff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    border-radius: 25px;
+}
+.button:hover{
+    background: #fff;
+    color: #2998ff;
+    padding: 10px 25px;
+}

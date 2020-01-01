@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #000;
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(41, 152, 255, 0.6), rgba(86, 67, 250, 0.6)), url(img/advice.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.advice__container {
+    padding: 100px 0;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+    color: #fff;
+}
+
+.header__text h1 {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.header__text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.advice__title {
+    color: #2998ff;
+    font-size: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #2998ff;
+}
+
+.advice__title h1 {
+    font-size: 80px;
+    text-align: right;
+}
+
+.advice__title h6 {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 100;
+}

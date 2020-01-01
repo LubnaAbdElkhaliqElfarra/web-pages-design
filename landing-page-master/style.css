@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(images/slider1.jpeg);
+    background-size: cover;
+    height: 657px;
+}
+.opacity {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.11));
+    height: 657px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+}
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 30px;
+    font-family: sans-serif;
+    transition: padding .5s ease-in-out;
+}
+.active a {
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    padding: 10px;
+    box-shadow: inset 2px 1px 20px 0px #bbb8b8;
+    transition: padding .5s ease-in-out;
+}
+ul li a:hover {
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    padding: 10px;
+    box-shadow: inset 2px 1px 20px 0px #bbb8b8;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+nav h1 {
+    font-size: 30px;
+    color: white;
+    font-family: Baskerville Old Face;
+    margin-left: 30px;
+}
+nav .fas {
+    color: white;
+    font-size: 30px;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+}
+.social a {
+    color: white;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+.contact p {
+    margin-right:20px;
+    color: white;
+    font-size: 15px;
+}
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-content: center; */
+    justify-content: center;
+    height: 360px;
+    color: white;
+    /* width: 500px; */
+}
+
+.title3 {
+font-weight: bold;
+font-size: 40px;
+color: white;
+margin-left: 30px;
+}
+.tiltle2 {
+    font-size: 40px;
+    color:  rgb(175, 174, 174);
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.tiltle2 .inner-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 140px;
+    width: 380px;
+    background-color: rgba(3, 3, 3, 0.562);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.content1-title {
+    color: white;
+    margin-left: 30px;
+}
+.content1-explain {
+    color: white;
+    margin-left: 30px;
+    width: 250px;
+    line-height: 23px;
+}
+.content1 .fas {
+    color: white;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (min-width: 320px) and (max-width: 1139px){
+    .header, .opacity {
+        height: 960px;
+    }
+}

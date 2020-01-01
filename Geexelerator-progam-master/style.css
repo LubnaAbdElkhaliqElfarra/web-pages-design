@@ -1,0 +1,360 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+   box-sizing: border-box;
+}
+body {
+    background-color: #caced0;;
+}
+header{
+    height: 657px;
+    background:linear-gradient(rgba(0,0,0,0.88),rgba(0,0,0,0.88)),url(img/header.jpg);
+    background-size: cover;
+}
+.logo{
+    width: 30vh;
+    height: 20vh;
+    margin-top:25px;
+    margin-left:25px;
+}
+h1 {
+    color: white;
+    text-align:center;
+    font-family: Bree Serif;
+    font-size: 35px;
+}
+.about-title {
+    color: rgb(247, 194, 99);
+    text-align: center;
+    line-height: 45px;
+    font-family: cursive;
+    font-size: 33px;
+}
+.title {
+    margin-top: 120px;
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style:none;
+    margin-top: 160px;
+}
+ul li{
+width: 180px;
+height: 60px;
+border: 1px solid white;
+margin-left: 20px;
+border-radius: 5px;
+line-height: 60px;
+text-align: center;
+}
+ul li a{
+   
+    text-decoration:none; 
+    margin-right:10px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Orange{
+    background-color: orange;
+}
+.Blue{
+    background-color: #3c5c6f;
+}
+.about{
+    background:#caced0;
+    height:657px;
+}
+.main-content{
+    width: 620px;
+    margin-left: 70px;
+}
+.main-content p{
+    text-align: justify;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+}
+.about-photo{
+    width: 70vh;
+    height:40vh;
+    margin-top:30px;
+    margin-left: 140px;
+    border: 3px solid  #3c5c6f;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    background-color: #3c5c6f;
+    height: 328.5px;
+    border-bottom-left-radius:120px;
+}
+.content img {
+    border: 3px solid orange;
+}
+.main-content h2{
+    padding-bottom: 20px;
+    color: orange;
+    font-family: Bree Serif;
+}
+.sub-content{
+    display: flex;
+    align-items: center;
+    background-color: #f3b94f;
+    height: 328.5px;
+    border-bottom-right-radius:120px;
+}
+.steps-content p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 50px;
+    color: white;
+}
+.steps-content{
+    margin-left: 230px;
+}
+.steps-content h3{
+    padding-bottom: 20px;
+    color: #3c5c6f; 
+    font-size: 23px;
+    font-family: Bree Serif;
+}
+.steps-content i{
+    color: #3c5c6f;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.far {
+    margin-top: 210px;
+    margin-right: 60px;
+    font-size: 30px;
+    color: #3c5c6f;
+}
+.far:active, .far:hover {
+    cursor: pointer;
+}
+
+/* How to apply section */
+.apply{
+    height: 657px;
+    background-color: #3c5c6f;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+}
+.apply p{
+    text-align: justify;
+    width: 620px;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    font-family: cursive;
+}
+.apply-img{
+    width: 70vh;
+    height: 45vh;
+    border: 2px solid orange;
+    padding: 5px;
+    margin-top: 20px;
+}
+.main-apply{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    height: 328.5px;
+}
+.apply-content h2{
+    padding-bottom: 20px;
+    color: orange;
+    font-family: Bree Serif;
+    padding-top: 20px;
+}
+.apply-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 328.5px;
+}
+.apply-icon i{
+    width: 100px;
+    height: 100px;
+    border: 3px dotted rgb(253, 198, 96);
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 45px;
+    color: orange;
+    margin-left: 280px;
+    margin-bottom: 20px;
+}
+.apply-icon p{
+    text-align: center;
+}
+.apply-icon .far {
+    margin: 0;
+    border: none;
+    font-size: 30px;
+    margin-top: 170px;
+}
+
+/* projects*/
+.projects{
+    height: 657px;
+    background-color: #a7b9c4;
+}
+.part1 {
+    height: 328.5px;
+    background-color: #3c5c6f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.proj-img {
+    width: 16vh;
+    height: 16vh;
+    border: 3px solid rgb(167, 185, 196);
+}
+.proj1 {
+    border: 2px solid orange;
+    width: 310px;
+    height: 280px;
+    text-align: center;
+    padding-top: 25px;
+}
+.proj1 p {
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+.proj1 h2 {
+    text-align: center;
+    color: rgb(226, 181, 98);
+    margin-top: 5px;
+}
+.projects .far {
+    color: orange;
+    margin-top: 4px;
+    margin-right:0;
+    font-size: 30px;
+}
+/*contact*/
+.contact{
+    height: 999px;
+    background: #3c5c6f;
+}
+.contact h2{
+    color: orange;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.team-m1{
+    width: 260px;
+    height: 250px;
+    border: 2px solid orange;
+    text-align: center;
+    padding:10px;
+}
+.team-img {
+    width:25vh ;
+    height: 25vh;
+    border: 2px solid #5f7786;
+}
+.team-m1 p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-family: cursive;
+}
+.team1{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;  
+    height: 290px;
+}
+fieldset{
+    height: 200px;
+    width: 600px;
+    padding: 30px;
+    color: orange;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+input {
+    width: 180px;
+    height: 30px;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 38px;
+    margin-top: 40px;
+} 
+
+.send {
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+}
+.contact-footer {
+    background-color:#5e6f79;
+    margin-top: 20px;
+    height: 509px;
+    border-top-right-radius: 300px;
+}
+.copy {
+    text-align: center;
+    margin-top: 60px;
+    color: orange;
+}
+.social {
+    text-align: center;
+    margin-top: 50px;
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid orange;
+    font-size: 25px;
+    color: white;
+}
+.contact-footer .far {
+    color: orange;
+    margin-top: -14px;
+    margin-right:30px;
+    font-size: 30px;
+    float: right;
+}
+.contact h2 {
+    font-family: Bree Serif;
+}
+
+
+

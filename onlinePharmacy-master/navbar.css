@@ -1,0 +1,28 @@
+.header__nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__logo i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.header__item {
+    display: inline-block;
+    margin: 0 15px;
+    transition: all 0.2s;
+}
+
+.header__link {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.header__item:hover {
+    transform: translateY(-4px);
+}
